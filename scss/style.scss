@@ -41,6 +41,9 @@ img {
   -webkit-align-items: center;
   align-items: center;
   z-index: 5;
+  &--faq {
+    background-color: black;
+  }
   &_logo {
     margin-left: -2000px;
     height: 60px;
@@ -836,5 +839,41 @@ img {
     margin-top: 30px;
     font-size: 14px;
     font-weight: normal;
+  }
+}
+
+.faq {
+  background-color: black;
+  padding: 90px 20px;
+  color: #fff;
+  &_title {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 64px;
+    font-weight: bold;
+  }
+  &_list {
+    max-width: 900px;
+  margin: 0 auto;
+    &_item {
+      margin-bottom: 50px;
+      &_title {
+        margin-bottom: 5px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      &_txt {
+        font-size: 18px;
+        line-height: 22px;
+        &--contact {
+          display: block;
+          margin: 10px;
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
   }
 }

@@ -32,6 +32,8 @@ img {
   -webkit-align-items: center;
   align-items: center;
   z-index: 5; }
+  .page-nav--faq {
+    background-color: black; }
   .page-nav_logo {
     margin-left: -2000px;
     height: 60px;
@@ -680,3 +682,31 @@ img {
     margin-top: 30px;
     font-size: 14px;
     font-weight: normal; }
+
+.faq {
+  background-color: black;
+  padding: 90px 20px;
+  color: #fff; }
+  .faq_title {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 64px;
+    font-weight: bold; }
+  .faq_list {
+    max-width: 900px;
+    margin: 0 auto; }
+    .faq_list_item {
+      margin-bottom: 50px; }
+      .faq_list_item_title {
+        margin-bottom: 5px;
+        font-size: 24px;
+        font-weight: bold; }
+      .faq_list_item_txt {
+        font-size: 18px;
+        line-height: 22px; }
+        .faq_list_item_txt--contact {
+          display: block;
+          margin: 10px; }
+        .faq_list_item_txt a {
+          color: #fff; }
